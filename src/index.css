@@ -5,6 +5,7 @@
  box-sizing: border-box;
  font-family: "Montserrat", sans-serif;
  text-decoration: none;
+ color: #fff;
 }
 /* header */
 .logo {
@@ -59,6 +60,7 @@ nav a {
 .sign-up {
  background-color: none;
 }
+/* body */
 main {
  background-image: url(./images/dots.png);
  background-size: contain;
@@ -66,9 +68,15 @@ main {
  height: 100vh;
  width: 100vw;
 }
-
+.textarea h1 {
+ font-size: 2rem;
+}
+.middlesection {
+ margin-top: 18vh;
+}
 body {
  background: linear-gradient(180deg, #0b0b3a, #18187a);
  background-repeat: no-repeat;
  background-size: cover;
+ overflow: hidden;
 }
