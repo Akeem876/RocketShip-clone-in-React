@@ -29,13 +29,13 @@ function Nav() {
   <nav>
    <div className="navigation">
     <a href="#">
-     <i class="fab fa-twitter"></i>
+     <i className="fab fa-twitter"></i>
     </a>
     <a href="#">
-     <i class="fab fa-facebook"></i>
+     <i className="fab fa-facebook"></i>
     </a>
     <a href="#">
-     <i class="fab fa-instagram"></i>
+     <i className="fab fa-instagram"></i>
     </a>
     <a href="#">FAQs</a>
     <a href="#">Rates</a>
@@ -51,7 +51,7 @@ function Login() {
   <div className="login-button">
    <button className="sign-up">Sign Up</button>
    <button>
-    Login<i class="fas fa-arrow-right"></i>
+    Login<i className="fas fa-arrow-right"></i>
    </button>
   </div>
  );

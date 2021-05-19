@@ -9,6 +9,8 @@ const SecondSection = () => {
    <div className="floating1"></div>
    <div className="floating2"></div>
    <div className="floating3"></div>
+   <div className="floating4"></div>
+   <div className="floating5"></div>
   </section>
  );
 };
