@@ -423,4 +423,5 @@ footer p {
 .answer {
  border-left: 3px solid #1d173f;
  background-color: #281f5c83;
+ transition: all ease 0.4s;
 }

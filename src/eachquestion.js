@@ -12,7 +12,7 @@ const Eachquestion = ({ question, answer }) => {
      }}
     >
      {state ? (
-      <i className="fas fa-chevron-down"></i>
+      <i className="fas fa-chevron-up"></i>
      ) : (
       <i className="fas fa-chevron-down"></i>
      )}
