@@ -37,7 +37,7 @@ function Nav() {
     <a href="#">
      <i className="fab fa-instagram"></i>
     </a>
-    <a href="#">FAQs</a>
+    <a href="#faq">FAQs</a>
     <a href="#">Rates</a>
     <a href="#">Contact</a>
     <a href="#">Suggestions</a>

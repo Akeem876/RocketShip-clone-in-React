@@ -6,7 +6,7 @@ import Eachquestion from "./eachquestion";
 const Questions = () => {
  const [question, setQuestions] = useState(faqs);
  return (
-  <article className="Questions">
+  <article className="Questions" id="faq">
    <h2>faq</h2>
    {question.map((faq, index) => {
     const { question, answer } = faq;
