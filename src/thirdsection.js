@@ -10,7 +10,7 @@ const ThirdSection = ({ data }) => {
  const prev = () => {
   setPosition(position === 0 ? length - 1 : position - 1);
  };
- console.log(position);
+ //  console.log(position);
  return (
   <section className="thirdSection">
    <h1>How It Works</h1>

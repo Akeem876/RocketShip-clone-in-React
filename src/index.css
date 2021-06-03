@@ -40,13 +40,29 @@ body {
 .logo h4 span {
  font-weight: 600;
 }
+.burger {
+ width: 60px;
+ display: flex;
+ justify-content: center;
+}
+.burger .layer {
+ height: 3px;
+ width: 24px;
+ background-color: rgb(221, 221, 221);
+ display: none;
+ margin: 5px;
+}
+.show-burger {
+ display: block;
+}
 header {
  height: 12vh;
  /* background-color: burlywood; */
  background-color: #f6f6fd2a;
  box-shadow: #888 2px 2px 8px -8px;
  display: flex;
- justify-content: space-between;
+ justify-content: center;
+ gap: 30px;
  align-items: center;
  position: fixed;
  top: 0;
@@ -349,6 +365,27 @@ main {
  margin: auto;
  overflow-x: hidden;
 }
+@media only screen and (max-width: 500px) {
+ .sliderContainer {
+  width: 200px;
+  height: 420px;
+ }
+ .cont {
+  width: 340px;
+ }
+}
+@media only screen and (max-width: 330px) {
+ .sliderContainer {
+  width: 200px;
+  height: 420px;
+ }
+ .cont {
+  width: 320px;
+ }
+ .textarea {
+  width: 300px;
+ }
+}
 .slide {
  opacity: 0;
  transition: all 0.5s ease;
@@ -368,6 +405,11 @@ footer {
  gap: 50px;
  margin-top: 100px;
 }
+@media only screen and (max-width: 790px) {
+ footer {
+  flex-direction: column;
+ }
+}
 footer p {
  width: 200px;
 }
@@ -378,10 +420,22 @@ footer p {
 .Questions {
  background-color: #27278a;
  box-shadow: 2px 5px 14px rgb(42, 41, 59);
- padding: 15px;
  width: 70%;
+ padding: 10px;
  margin: 80px auto 0;
  border-radius: 3px;
+}
+@media only screen and (max-width: 880px) {
+ .Questions {
+  width: 95%;
+ }
+ .card {
+  width: 90%;
+  margin: 0 20px;
+ }
+ .floatingImg {
+  display: none;
+ }
 }
 .Questions h2 {
  text-transform: uppercase;
@@ -390,7 +444,7 @@ footer p {
 }
 .card {
  /* background-color: rgb(75, 67, 58); */
- width: 70%;
+ width: 90%;
  min-height: auto;
  margin: 20px auto;
 }
@@ -424,4 +478,21 @@ footer p {
  border-left: 3px solid #1d173f;
  background-color: #281f5c83;
  transition: all ease 0.4s;
+}
+@media only screen and (max-width: 1000px) {
+ .middlesection {
+  flex-direction: column;
+ }
+}
+@media only screen and (max-width: 950px) {
+ header {
+  justify-content: space-around;
+ }
+ header nav,
+ header .login-button {
+  display: none;
+ }
+ .burger .layer {
+  display: block;
+ }
 }

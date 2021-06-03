@@ -9,6 +9,7 @@ const Header = () => {
    <Logo />
    <Nav />
    <Login />
+   <Burger />
   </header>
  );
 };
@@ -53,6 +54,18 @@ function Login() {
    <button>
     Login<i className="fas fa-arrow-right"></i>
    </button>
+  </div>
+ );
+}
+
+function Burger() {
+ return (
+  <div className="burger">
+   <div className="conte">
+    <div className="layer"></div>
+    <div className="layer"></div>
+    <div className="layer"></div>
+   </div>
   </div>
  );
 }
