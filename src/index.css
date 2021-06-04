@@ -62,13 +62,44 @@ header {
  box-shadow: #888 2px 2px 8px -8px;
  display: flex;
  justify-content: center;
- gap: 30px;
+ gap: 140px;
  align-items: center;
  position: fixed;
  top: 0;
  left: 0;
  right: 0;
  z-index: 11;
+ padding-left: 40px;
+}
+/* .burger-menu {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin-top: 280px;
+} */
+.sub-menu {
+ padding: 20px 0 20px;
+ margin-top: 89px;
+ display: flex;
+ flex-direction: column;
+ background-color: rgba(214, 214, 214, 0.753);
+ transition: all ease-out 0.5s;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ z-index: 20;
+ opacity: 1;
+}
+.hide {
+ opacity: 0;
+}
+.sub-menu a {
+ margin: 8px;
+ padding: 10px;
+}
+.sub-menu a:hover {
+ background-color: rgba(175, 175, 175, 0.849);
 }
 .navigation {
  display: flex;
@@ -133,7 +164,7 @@ main {
  justify-content: space-between;
  align-items: center;
  width: 70%;
- padding-top: 150px;
+ padding-top: 120px;
  margin: auto;
  z-index: 10;
 }
